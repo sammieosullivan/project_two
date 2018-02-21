@@ -1,0 +1,243 @@
+/* ----- structure ----- */
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background: #333;
+}
+
+main {
+  background: lightblue;
+  padding-top: 5%;
+}
+
+footer {
+  height: 150px;
+  background: #333;
+}
+
+iframe {
+  float: left;
+  padding-bottom: 8%;
+}
+
+.wrapper {
+  max-width: 980px;
+  margin: auto;
+}
+
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ----- logo ----- */
+
+header h1 {
+  float: left;
+  font-size: 60px;
+  margin: 0;
+  padding-top: 40px;
+  font-family: 'futura';
+}
+
+header h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+header h1 a:hover {
+  color: #eeeeee;
+}
+
+/* ----- top navigation ----- */
+
+#top-nav {
+  float: right;
+  margin-top: 72px;
+}
+
+#top-nav ul {
+  margin: 0;
+  list-style: none;
+}
+
+#top-nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#top-nav ul li a {
+  font-size: 18px;
+  font-family: 'futura';
+  color: white;
+  text-decoration: none;
+}
+
+#top-nav ul li a:hover {
+  color: #eeeeee;
+}
+
+#top-nav ul li a:active {
+  text-decoration: underline;
+}
+
+/* ----- Main ----- */
+
+h1 {
+  float: left;
+  font-size: 70px;
+  margin: 0;
+  padding-top: 55%;
+  font-family: 'futura';
+  display: block;
+}
+
+h2 {
+  float: left;
+  font-size: 70px;
+  margin: 0;
+  padding-top: 50px;
+  font-family: 'futura';
+  display: block;
+}
+
+h3 {
+  float: left;
+  font-size: 25px;
+  margin: 0;
+  padding-top: 20px;
+  font-family: 'futura';
+  display: block;
+}
+
+h4 {
+  font-size: 25px;
+  margin: 0;
+  padding-top: 20px;
+  font-family: 'futura';
+  display: block;
+}
+
+h1, h2, h3, h4, p {
+  color: #333;
+}
+
+p {
+  float: left;
+  font-size: 15px;
+  margin: 0;
+  padding-top: 20px;
+  font-family: 'futura';
+  display: block;
+  width: 500px;
+}
+
+br {
+  border: 1px solid grey;
+}
+
+.section {
+  padding: 15%;
+  margin: auto;
+}
+
+.container {
+  width: 980px;
+  display: flex;
+  flex: 1;
+  margin: auto;
+  font-family: 'futura';
+}
+
+.two_thirds_column {
+  flex: 0 0 calc(200%/3);
+  background: lightblue;
+  order: -1;
+  padding-bottom: 6%;
+}
+
+.one_third_column {
+  flex: 0 0 calc(100%/3);
+  background: lightblue;
+  float: left;
+  padding-top: 5%;
+}
+
+#home {
+  padding-bottom: 0%;
+}
+
+img {
+  max-width: 100%;
+  filter: grayscale(100%);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 100%;
+  max-width: 980px;
+  margin: auto;
+  padding: 2%;
+  align-content: center;
+}
+
+#list {
+  flex: 0 0 calc(100%/3);
+  background: lightblue;
+  float: left;
+  padding-top: 5%;
+  font-size: 25px;
+}
+
+#list a:link {
+  color: #333;
+  text-decoration: underline;
+}
+
+#list a:visited {
+  color: #333;
+}
+
+#list a:hover {
+  color: #fff;
+}
+
+/* ----- bottom navigation ----- */
+
+#bottom-nav {
+  margin: 0px;
+  padding-top: 3%;
+  list-style: none;
+  text-align: center;
+}
+
+#bottom-nav a {
+  font-size: 16px;
+  font-family: 'futura';
+  color: white;
+  text-decoration: none;
+}
+
+/*
+#bottom-nav ul li {
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+#bottom-nav ul li a {
+  font-size: 16px;
+  font-family: 'futura';
+  color: white;
+  text-decoration: none;
+}
+
+#bottom-nav ul li a:hover {
+  color: #lightblue;
+*/
