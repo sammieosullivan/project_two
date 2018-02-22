@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Project Two">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=futura" rel="stylesheet">
+  <title>Sammie O'Sullivan Project 2</title>
+</head>
+
+<body>
+
+  <!-- header -->
+
+  <header>
+    <div class='wrapper'>
+      <h1>
+        <a href="indexprojecttwo.html">–</a>
+      </h1>
+      <nav id="top-nav">
+        <ul>
+          <li><a href="indexprojectcashmachine.html">cash machine</a></li>
+          <li><a href="indexprojectchacha.html">cha cha</a></li>
+          <li><a href="indexprojectbroccoli.html">broccoli</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- main -->
+  <main>
+    <section>
+      <div class="container">
+        <div class="two_thirds_column">
+          <iframe src="https://open.spotify.com/embed/track/44Xgp13T5ab99beJ0edP6b" width="430" height="80" frameborder="0" allowtransparency="true"></iframe>
+          <img src="dram_chacha.jpg" alt="chacha">
+          <h2>cha cha</h2>
+          <br></br>
+          <p>I like to cha cha <br> In a Latin bar, yeah<br> With a Dominican that resembles Taina<br></p>
+          <p>
+            I like to cha cha eh<br> I like to cha cha eh<br> With a Dominican that resembles Taina<br></p>
+          <p>
+            I like the way you move<br> I saw you from across the bar<br> And I'm not of Spanish decent<br> But it's just, just the way I talk<br> I really would like to taste the<br> Spanish cuisine you prepared<br> And your beautiful hair<br> Which
+            this just moves anywhere<br></p>
+          <p>
+            I like to cha cha eh<br> I like to cha cha eh<br> With a Dominican that resembles Taina<br> I like to cha cha eh<br> And I like to forget<br> With a Dominican that resembles Taina yeah<br></p>
+          <p>
+            I'ma tell all my boys about you mañana<br> Hope this is your number, I'm calling you mañana<br> Hopefully you'll come kick it with me mañana<br> We can cha cha between the sheets mañana<br> I'ma tell all my boys about you mañana<br> Hope this
+            is your number, I'm calling you mañana<br> Hopefully you'll come kick it with me mañana<br> We can cha cha between the sheets mañana<br></p>
+          <p>
+            I like to cha cha eh<br> I like to cha cha eh<br> With a Dominican that resembles Taina<br> I like to cha cha eh<br> I like to forget<br> With a Dominican that resembles Taina, Taina<br></p>
+          <p>
+            I like to cha cha eh<br> I like to cha cha eh<br> With a Dominican that resembles Taina<br> I like to cha cha eh<br> I like to cha cha eh<br> Like a chameleon that's hanging with Mrs. Frizzle<br></p>
+          <p>
+            I like to cha cha eh<br> In this lil' Latin bar off J Clyde Morris Blvd<br> With a pretty lil' brown thang that look like Taina<br> I like to cha cha<br> I like to cha cha<br> With a Dominican that resembles Taina, Taina, Taina, Taina<br>
+          </p>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer>
+        <nav id="bottom-nav">
+        <!--<ul>
+            <li><a href="#">cash machine</a></li>
+            <li><a href="#">cha cha</a></li>
+            <li><a href="#">broccoli</a></li>
+          </ul>-->
+          <a href="indexprojecttwo.html">< go back</a>
+        </nav>
+      </footer>
+
+</body>
+
+</html>
